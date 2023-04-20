@@ -50,6 +50,10 @@ public class LoginTest {
     public void selectFromDropDown(By locator, String visibilityText){
         Select sel = new Select(driver.findElement(locator));
         sel.selectByVisibleText(visibilityText);
+        System.out.println("Oh lord I need your help!");
     }
+
+
+
 
 }
