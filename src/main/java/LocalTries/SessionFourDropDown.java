@@ -42,7 +42,7 @@ public class SessionFourDropDown {
         driver.findElement(SIGNIN_FIELD).click();
 
 
-        Assert.assertTrue("Page not found!!!", driver.findElement(DASHBOARD_HEADER_FIELD).isDisplayed());
+        Assert.assertTrue("Session7_POM_Project.Page not found!!!", driver.findElement(DASHBOARD_HEADER_FIELD).isDisplayed());
         Assert.assertEquals("page not found", "Dashboard- iBilling", driver.getTitle());
         System.out.println("this is the title: " + driver.getTitle());
         WebElement Dashboard = driver.findElement(DASHBOARD_HEADER_FIELD);
